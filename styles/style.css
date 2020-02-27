@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('BebasNeue-Regular.otf');
+    src: url('BebasNeue-Regular.otf') format('embedded-opentype'),
+}   
+@font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('BebasNeue-Regular.otf');
+    src: url('BebasNeue-Regular.otf') format('embedded-opentype'),
+}
+@font-face {
+    font-family: 'NunitoSans-ExtraLight';
+    src: url('NunitoSans-ExtraLight.ttf');
+    src: url('NunitoSans-ExtraLight.ttf') format('embedded-opentype'),
+}
+@font-face {
+    font-family: 'Sunrise';
+    src: url('Sunrise.otf');
+    src: url('Sunrise.otf') format('embedded-opentype'),
+}
+@font-face {
+    font-family: 'MontSerrat';
+    src: url('Montserrat-Light.ttf');
+    src: url('Montserrat-Light.ttf') format('embedded-opentype'),
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    background: white;
+}
+main {
+    height: 100%;
+    background: white;
+    padding-top: 60px;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background:rgba(37, 37, 37, 0.95);
+    position: fixed;
+    color: white;
+}
+span {
+    width:25%;
+}
+span img {
+    width: 240px;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+div img {
+    margin: auto;
+    width: 10%;
+    display: flex;
+    padding: 10px;
+}
+h1 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    margin: auto;
+    font-size: 10px;
+    transition: 0.2s;
+    letter-spacing: 1px;
+}
+
+h1:hover {
+    color: grey;
+    transition: 0.2s;
+}
+#index {
+    width: 50%;
+    display: flex;
+}
+.blue {
+    background: #3353ad;
+}
+#black {
+    background: rgb(30, 30, 30);
+}
+#orange {
+    background: orange;
+}
+#purple {
+    background: blueviolet;
+}
+.white h2, .white p {
+    color: #3353ad;
+}
+.white {
+    background: white;
+}
+#center {
+    display: flex;
+    justify-content: center;
+}
+#end {
+    display: flex;
+    justify-content: end;
+}
+.blocSize {
+    width: 100%;
+    height: 400px;
+}
+footer {
+    width: 100%;
+    height: 125px;
+    background: rgb(30, 30, 30);
+}
+h2, article p {
+    color: white;
+    margin: 0;
+    padding: 65px;
+    font-size: 30px;
+}
+#bloc2 h2{
+    display: flex;
+    justify-content: center;
+}
+#bloc3 h2{
+    display: flex;
+    justify-content: end;
+}
+#bloc4 h2{
+    display: flex;
+    justify-content: center;
+}
+
+#boutons p {
+    font-size: 12px;
+    display: flex;
+    margin: auto;
+    font-weight: bold;
+}
+#boutons {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+#inscription {
+    color: white;
+}
+#connexion {
+    color: #3353ad;
+}
+#buttonUn {
+    margin-top: 10px;
+    background:#3353ad;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    height: 60%;
+    margin: 10px;
+    box-shadow: white;
+    transition: 0.5s;
+}
+#buttonUn:hover {
+    transition: 0.5s;
+    box-shadow: grey 0px 0px 10px;
+}
+#buttonDeux {
+    margin-top: 10px;
+    background:white;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    height: 60%;
+    margin: 10px;
+    transition: 0.5s;
+}
+#buttonDeux:hover {
+    transition: 0.5s;
+    background: #a4bdff;
+}
