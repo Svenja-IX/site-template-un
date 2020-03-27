@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Template 1</title>
     <link rel="icon" href="images/alexion.png" />
-    <link rel='StyleSheet' href='styles/style.css'>
+    <link rel='StyleSheet' href='style.css'>
 </head>
 <body>
 <?php
